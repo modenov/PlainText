@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1351329191"/>
+  <Params Value=" -MObjFPC -Scghi -CX -O1 -g -gl -Xg -Xs -XX -WG -l -vewnhibq -FiD:\OneDrive\Программирование\Lazarus\PlainText\lib\x86_64-win64 -FuC:\lazarus\components\synedit\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 -FuD:\OneDrive\Программирование\Lazarus\PlainText\ -FUD:\OneDrive\Программирование\Lazarus\PlainText\lib\x86_64-win64\ -FED:\OneDrive\Программирование\Lazarus\PlainText\ -oD:\OneDrive\Программирование\Lazarus\PlainText\ptxt.exe -dLCL -dLCLwin32 ptxt.lpr"/>
+</CONFIG>

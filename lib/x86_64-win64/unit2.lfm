@@ -1,0 +1,72 @@
+object Form2: TForm2
+  Left = 919
+  Height = 461
+  Top = 461
+  Width = 737
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Просмотр буфера обмена '
+  ClientHeight = 461
+  ClientWidth = 737
+  Color = clWhite
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '2.0.8.0'
+  object Memo2: TMemo
+    Left = 33
+    Height = 248
+    Top = 104
+    Width = 672
+    Font.Height = -13
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Cursor = crHandPoint
+    Left = 296
+    Height = 39
+    Top = 368
+    Width = 240
+    Caption = 'Внести изменения'
+    Font.Height = -15
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Cursor = crHandPoint
+    Left = 545
+    Height = 39
+    Top = 368
+    Width = 160
+    Caption = 'Отменить'
+    Font.Height = -15
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 438
+    Width = 737
+    Panels = <>
+    SimpleText = ' В этом окне вы можете просмотреть буфер обмена и, если нужно, отредактировать его.'
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 54
+    Top = 24
+    Width = 617
+    Caption = 'PlainText — буфер обмена Windows'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = 12885051
+    Font.Height = -40
+    Font.Name = 'Segoe UI Light'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end
